@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat application</title>
+    <script src="script.js"></script>
+    <script src="stomp.js"></script>
 </head>
-<body>
+<body onload="connect()">
     <div>
         <label>Twoja wiadomość:</label>
-        <input type="text"/>
-        <button>Send</button>
-        <p></p>
+        <input id="messageInput" type="text"/>
+        <button onclick="sendMessage()">Send</button>
+        <p id="response"></p>
     </div>
 </body>
 </html>
