@@ -11,7 +11,20 @@ body{
     border: none;
     color: white;
     padding: 15px 32px;
+    border-radius: 8px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:focus{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -22,6 +35,7 @@ body{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 8px;
     background-color: #3CBC8D;
     color: white;
 }
@@ -31,7 +45,13 @@ body{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 8px;
     background-color: white;
     border: 3px solid #555;
     color: black;
+}
+
+#response{
+    font-size: 26px;
+    color: white;
 }

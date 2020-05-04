@@ -3,6 +3,7 @@ var client = null;
 function showMessage(value, user){
     var newResponse = document.createElement('p');
     newResponse.appendChild(document.createTextNode(user));
+    newResponse.appendChild(document.createTextNode(": "));
     newResponse.appendChild(document.createTextNode(value));
     var response = document.getElementById('response');
     response.appendChild(newResponse);
